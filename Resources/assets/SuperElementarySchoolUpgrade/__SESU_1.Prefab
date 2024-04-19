@@ -1,7 +1,7 @@
 {
     "$id": 0,
     "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
-    "name": "CarProp",
+    "name": "__SESU_1",
     "active": true,
     "components": {
         "$id": 1,
@@ -10,14 +10,11 @@
         "$rcontent": [
             {
                 "$id": 2,
-                "$type": "2|Game.Prefabs.UIObject, Game",
-                "name": "UIObject",
+                "$type": "2|Game.Prefabs.SubObjectDefaultProbability, Game",
+                "name": "SubObjectDefaultProbability",
                 "active": true,
-                "m_Group": null,
-                "m_Priority": 1,
-                "m_Icon": "coui://customassets/ExamplePack/CarProp.png",
-                "m_LargeIcon": "",
-                "m_IsDebugObject": false
+                "m_DefaultProbability": 100,
+                "m_RotationSymmetry": 0
             }
         ]
     },
@@ -29,7 +26,7 @@
             {
                 "$id": 4,
                 "$type": "4|Game.Prefabs.ObjectMeshInfo, Game",
-                "m_Mesh": $fstrref:"UnityGUID:a785b21c32e039549923bcd8a21fc674",
+                "m_Mesh": $fstrref:"UnityGUID:dcf715d183ac5a445b51c540c931eeba",
                 "m_Position": {
                     "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
                     "x": 0,
