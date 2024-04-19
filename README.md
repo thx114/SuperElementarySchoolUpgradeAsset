@@ -1,4 +1,4 @@
-﻿﻿## Super Elementary School Upgrade Asset
+## Super Elementary School Upgrade Asset
 Add a Super Expansion Upgrade to the Elementary School
 
 ### Warning:
